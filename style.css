@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Gantari:wght@300;400;500&family=Merriweather:wght@900&family=Oswald:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Gantari;
+}
+
+section{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.top-banner{
+    background-color: rgb(23, 24, 26);
+    background-image: linear-gradient(rgba(104, 104, 104,.5),rgba(12, 11, 12, .5)),url("images/donation13.jpg");
+    padding-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    background-color:rgba(39, 32, 39, 0.5);
+    color: rgb(224, 219, 219);
+    font-size: 60px;
+    font-weight: 300px;
+
+}
+p{
+    color: rgb(167, 175, 182);
+    font-size: 18px;
+    margin: 25px 0px 40px;
+}
+.button{
+    background: linear-gradient(rgb(233, 101, 101),rgb(151, 68, 53));
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: rgb(224, 219, 219);
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size: 18px;
+    
+}
+.button:hover{
+    background: rgb(211, 100, 100);
+    
+}
+h2{
+    font-size: 40px;
+    font-weight: 300px;
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+}
+.child{
+    height: 100px;
+    width: 150px;
+    background: rgb(247, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 8px;
+    font-size: 30px;
+    color: rgb(65, 60, 60);
+    
+}
+.taka{
+    margin: 40px 0px 10px;
+    color: rgb(202, 204, 206);
+}
+hr{
+margin: 10px 0px 40px ;
+}
