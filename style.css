@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Gantari:wght@300;400;500&family=Merriweather:wght@900&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=DM+Sans&family=Gantari:wght@300;400;500&family=Merriweather:wght@900&family=Oleo+Script+Swash+Caps&family=Oswald:wght@200&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -131,7 +131,49 @@ h5{
 #frame-icon{
     background: #F7F2F2;
 }
-.end-section{
+.end-banner{
+    height: 450px;
+}
+#end-container{
+    width: 100%;
+    display: flex;
+}
+
+.help-people-img{
+    width: 70%;
+    
+}
+.help-people-img img{
+    width: 600px;
+    height: 400px;
+}
+.way-to-help{
+    background: #2C2C2C;
+    width: 25%;
+    margin-left: 0px;
+    padding: 0% 5%;
+    
+    
+}
+h6{
+    background: #161616;
+    font-size: 20px;
+    color: rgb(233, 221, 221);
+    margin: 30px auto 10px;
+}
+.see-more-btn{
+    background: #b95757;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #cfdbe7;
+    border: 1px solid black;
+}
+
+
+
+
+
+.my-update{
     height: 400px;
 }
 .subscribe-area{
@@ -157,4 +199,22 @@ h5{
     border: none;
     float: left;
     color: rgb(247, 241, 241);
+}
+footer{
+    height: 100px;
+    background: black;
+    text-align: center;
+    padding: 20px 0px ;
+
+
+}
+.end-h3{
+    color: rgb(228, 62, 62);
+    margin: 20px auto 10px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 25px;
+    font-weight: normal;
+}
+.end-p{
+    font-size: 14px;
 }
