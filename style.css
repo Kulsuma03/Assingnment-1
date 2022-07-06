@@ -6,7 +6,7 @@
 }
 
 section{
-    height: 550px;
+    height: 600px;
     display: flex;
     justify-content: center;
 }
@@ -43,7 +43,6 @@ p{
     border-radius: 5px;
     color: rgb(253, 245, 245);
     text-decoration: none;
-    /* font-weight: bold; */
     font-size: 18px;
     
 }
@@ -52,7 +51,7 @@ p{
     
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500px;
 }
 
@@ -63,7 +62,7 @@ h2{
 .amount-child{
     height: 100px;
     width: 120px;
-    background: rgb(247, 243, 243);
+    background: #F7F7F7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,16 +79,82 @@ h2{
 }
 
 
-.other-amount{
+.other-amount-input{
     border: none;
     width: 100%;
     text-align: center;
-    margin: 30px 0px;
+    margin: 40px 0px;
     border-bottom: 1px solid rgb(209, 198, 198);
     padding: 10px 0px;
-    font-size: 17px;
+    font-size: 18px;
    
 }
 .other-amount:focus{
     outline: none;
+}
+#donate-plane-container{
+    width: 80%;
+    
+}
+.container-header{
+    width: 50%;
+    margin: auto;
+}
+h5{
+    font-size: 22px;
+}
+.donate-plane{
+    display: flex;
+    justify-content: space-evenly;
+}
+.donate-plane p{
+    font-size: 16px;
+}
+.donate-plane img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.donate-plane-child{
+    width: 250px;
+    height: 250px;
+    text-align:left;
+    padding: 30px 27px 10px;
+   
+
+}
+#food-icon{
+    background: #E8F0F7;
+}
+#shelter-icon{
+    background: #E8F7F7;
+}
+#frame-icon{
+    background: #F7F2F2;
+}
+.end-section{
+    height: 400px;
+}
+.subscribe-area{
+    background: #F7F2F2;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#input-email{
+    background: #cfdbe7;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+   
+}
+#input-submit{
+    background:  linear-gradient(rgb(233, 101, 101),rgb(151, 68, 53));
+    padding: 12px 20px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    float: left;
+    color: rgb(247, 241, 241);
 }
